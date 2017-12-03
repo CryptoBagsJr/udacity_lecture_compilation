@@ -80,5 +80,5 @@ $ jupyter notebook
 
 In Jupyter notebook, open IPython Notebook file (.ipynb)
 
-# Execute the cells
+# Execute the cells in Jupyter notebook
 Press Shirt-Return on the cell.
