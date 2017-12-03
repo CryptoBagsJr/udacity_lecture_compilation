@@ -75,3 +75,10 @@ $ source activate tensorflow # tensorflow: environment name
 $ jupyter notebook
 # This will launch the browser and open a current page in notebook.
 ```
+
+# Open Udacity lectures
+
+In Jupyter notebook, open IPython Notebook file (.ipynb)
+
+# Execute the cells
+Press Shirt-Return on the cell.
