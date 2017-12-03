@@ -66,3 +66,12 @@ $ pip install h5py
 $ brew install ffmpeg
 $ brew install pyqt
 ```
+
+# Start Jupyter Notebook
+```
+# Enter the Environment
+$ source activate tensorflow # tensorflow: environment name
+
+$ jupyter notebook
+# This will launch the browser and open a current page in notebook.
+```
