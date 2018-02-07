@@ -1,0 +1,12 @@
+First, make sure Xcode is up-to-date on your Mac.
+Enter `export HOMEBREW_NO_AUTO_UPDATE=0` to reset homebrew to allow for updates. Then,  `brew update`.
+Then, run `brew uninstall ipopt` in case it's somewhere on your computer.
+Next, run `brew install ruby`. If it's already there, run `brew upgrade ruby`.
+`cd /usr/local/Homebrew/Library/Taps/homebrew/homebrew-science` ​ (or your own related directory)
+`git checkout 19f75951641d3a5e70ea105f76a6a77bc0553d07`
+`export HOMEBREW_NO_AUTO_UPDATE=1`
+`cd ..` (You should now be back into the main homebrew directory instead of homebrew-science)
+`git checkout 93a2e9fc25407b049d594ad2da112a5cb8bdf5c3`
+`brew tap homebrew/science`
+`brew install ipopt --with-openblas`
+
